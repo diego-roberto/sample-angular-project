@@ -1,0 +1,7 @@
+<mat-toolbar class="blue-toolbar">
+    <mat-tab-group>
+        <mat-tab routerLink="/pessoa" routerLinkActive #rla1="routerLinkActive" [active]="rla1.isActive">Pessoa</mat-tab>
+        <mat-tab routerLink="/conta" routerLinkActive #rla2="routerLinkActive" [active]="rla2.isActive">Conta</mat-tab>
+        <mat-tab routerLink="/movimentacao" routerLinkActive #rla3="routerLinkActive" [active]="rla3.isActive">Movimentação</mat-tab>
+    </mat-tab-group>
+</mat-toolbar>

@@ -1,0 +1,21 @@
+<div>
+    <form
+      [formGroup]="pessoaForm"
+    >
+        <div>
+            <mat-label>Nome</mat-label>
+            <input matInput>
+        </div>
+        <div>
+            <mat-label>CPF</mat-label>
+            <input matInput>
+        </div>
+        <div>
+            <mat-label>Endereço</mat-label>
+            <input matInput>
+        </div>
+        <div class="form-bottom">
+            <button md-icon-button mdTooltip="Salvar" (click)="savePessoa()">Salvar</button>        
+        </div>
+    </form>
+</div>
